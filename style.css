@@ -2,6 +2,9 @@ body{
     font-family: sans-serif;
     overflow-x: hidden;
 }
+a:hover{
+	color: #fff !important;
+}
 .min_div_bg{
     background: #f9f9ff;
 }
@@ -80,6 +83,9 @@ body{
 	margin-top: -64px;
 	margin-left: 15px;
 }
+.card:hover a{
+	color: #000!important;
+}
 
 /* Contact Section */
 .contact_form{
@@ -90,11 +96,17 @@ body{
     color: #fff;
     font-weight: 400;
 }
+.contact_form:hover button{
+	color: #fff !important;
+}
 .form_right_text {
 	margin-top: 70px;
 	margin-left: 30px;
 }
 /* Footer */
+.footer_section{
+	background: #04091e;
+}
 .footer_section p {
 	font-weight: 400;
 	font-size: 18px;
