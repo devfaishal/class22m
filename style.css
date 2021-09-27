@@ -2,9 +2,6 @@ body{
     font-family: sans-serif;
     overflow-x: hidden;
 }
-a:hover{
-	color: #fff !important;
-}
 .min_div_bg{
     background: #f9f9ff;
 }
@@ -17,6 +14,9 @@ a:hover{
 /* Banner Secrtion */
 .banner_text {
 	margin-top: 135px;
+}
+.banner_text h6{
+	font-weight: 600;
 }
 .sec_img {
 	width: 480px;
